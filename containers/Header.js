@@ -1,7 +1,8 @@
 import React from "react";
-import Navi from "./Navi";
+
+import Navibar from "./Navibar";
 export default function Header(){
-    return<>
-    <Navi/>
-    </>
+    return<div>
+        <Navibar/>
+    </div>
 }
